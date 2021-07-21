@@ -49,13 +49,13 @@
                 <button class="btn btn-primary" @click="agregarSaldo">Agregar saldo</button>
                 <hr>
                 <button class="btn btn-danger" @click="disminuirSaldo(100)" :disabled="desactivar">Disminuir saldo</button>
-
-                <div>
-                    <h3>Footer de mi sitio web</h3>
-                </div>
+                
+                <footer-banco />
             </div>
         </div>
         <script src="main.js"></script>
+        <!-- Poner componentes siempre después del main.js-->
+        <script src="components/Footer.js"></script>
         <script>
             const mountedApp = app.mount("#app");
         </script>
