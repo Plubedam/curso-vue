@@ -1,0 +1,23 @@
+.DS_Store
+node_modules/
+CLI/hola-mundo-v2/dist
+
+
+# local env files
+CLI/hola-mundo-v2/.env.local
+CLI/hola-mundo-v2/.env.*.local
+
+# Log files
+CLI/hola-mundo-v2/npm-debug.log*
+CLI/hola-mundo-v2/yarn-debug.log*
+CLI/hola-mundo-v2/yarn-error.log*
+CLI/hola-mundo-v2/pnpm-debug.log*
+
+# Editor directories and files
+CLI/hola-mundo-v2/.idea
+CLI/hola-mundo-v2/.vscode
+CLI/hola-mundo-v2/*.suo
+CLI/hola-mundo-v2/*.ntvs*
+CLI/hola-mundo-v2/*.njsproj
+CLI/hola-mundo-v2/*.sln
+CLI/hola-mundo-v2/*.sw?
