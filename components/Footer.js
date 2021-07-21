@@ -1,8 +1,8 @@
 // Nombre de componente siempre en minuscula y separado por "-"
 app.component('footer-banco', {
-    props: ['cantidad', 'fecha'],
+    props: ['valor', 'fecha'],
     template: /*html*/ `<div class="bg-dark py-3 mt-2 text-white">
-                            <h3>{{texto}} - {{cantidad}}</h3>
+                            <h3>{{texto}} - {{valor}}</h3>
                             <p class="p-2">{{fecha}}</p>
                         </div>` 
     ,
