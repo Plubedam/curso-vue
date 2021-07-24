@@ -14,10 +14,10 @@
       Navbar
     },
     methods: {
-      ...mapActions(['cargarLocalStorage'])
+      ...mapActions(['cargarBD'])
     },
     created(){
-      this.cargarLocalStorage()
+      this.cargarBD()
     }
   };
   

@@ -32,7 +32,7 @@ export default {
     }
   }, 
   methods: {
-    ...mapActions(['setTareas']),
+    ...mapActions(['setTareas', 'cargarBD']),
 
     procesarFormulario(){
       console.log(this.tarea)
@@ -58,6 +58,9 @@ export default {
         numero: 0 
       }
     }
+  },
+  created(){
+    this.cargarBD()
   }
 }
 </script>
