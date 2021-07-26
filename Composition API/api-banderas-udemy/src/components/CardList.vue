@@ -25,8 +25,9 @@ export default {
             return store.getters.topPaisesPoblacion
         }) 
 
-        onMounted(() => {
-            store.dispatch('getPaises')
+        onMounted(async () => {
+            await store.dispatch('getPaises')
+            store.dispatch('filtrarRegion', '')
         })
 
         return {paises}
